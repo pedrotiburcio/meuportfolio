@@ -1,0 +1,26 @@
+@use 'reset';
+@use 'colors';
+@use 'header';
+@use 'hero';
+@use 'about';
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#projects {
+    background-color: colors.$corDeFundo1;
+    height: 700px;
+}
+
+#contact {
+    background-color: colors.$corDeFundo2;
+    height: 700px;
+}

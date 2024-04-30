@@ -1,0 +1,39 @@
+@use 'colors';
+
+#about {
+    background-color: colors.$corDeFundo2;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &__infos {
+        padding-left: 64px;
+
+        &__title {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            margin-bottom: 32px;
+            color: colors.$corDoTexto1;
+
+            h2 {
+                font-size: 32px;
+                padding: 0 8px;
+            }
+        }
+
+        &__text {
+            text-align: justify;
+
+            p {
+                padding-top: 16px;
+                font-size: 18px;
+                font-family: Mulish, sans-serif;
+                line-height: 2;
+            }
+        }
+    }
+}
