@@ -5,7 +5,7 @@ $(document).ready(function (){
             // $('#social-links').css("opacity", "1")
             $('#social-links').css("animation", "bounce")
             $('#social-links').css("animationDuration", "2.2s")
-        }, 2500)
+        }, 1500)
 
         // $(window).on('scroll', function() {
         //     hideAllLinks()
