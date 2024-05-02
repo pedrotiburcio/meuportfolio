@@ -23,8 +23,6 @@
 
         &__text {
             text-align: center;
-            animation: fadeInDown;
-            animation-duration: 3s;
 
             p {
                 b {
@@ -72,15 +70,13 @@
         &__image {
             height: 300px;
             border-radius: 10%;
-            animation: fadeInDown;
-            animation-duration: 3s;
         }
     
         &__social-links {
             display: flex;
             justify-content: center;
             margin-top: 16px;
-            opacity: 0;
+            // opacity: 0;
 
             a {
                 color: colors.$corDoTexto1;
@@ -100,8 +96,6 @@
         justify-content: center;
         align-items: center;
         margin-top: 80px;
-        animation: fadeInDown;
-        animation-duration: 3s;
 
         &__title{
             margin-right: 16px;

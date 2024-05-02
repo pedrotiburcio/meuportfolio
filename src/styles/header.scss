@@ -9,8 +9,6 @@
     background-color: colors.$corDeFundo2;
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, .12);
-    animation: fadeInDown;
-    animation-duration: 2s;
 
     .container {
         display: flex;
@@ -42,8 +40,7 @@
                 transition: all .20s;
 
                 &:hover {
-                    color: colors.$corDoTexto2;
-                    
+                    color: colors.$corDoTexto2;  
                 }
 
                 &--is-active {
