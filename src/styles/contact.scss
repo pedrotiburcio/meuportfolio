@@ -1,0 +1,101 @@
+@use 'colors';
+
+#contact {
+    background-color: colors.$corDeFundo2;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 128px;
+
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 64px;
+
+        h2 {
+            font-size: 32px;
+            padding: 0 8px;
+            color: colors.$corDoTexto1;
+        }
+    }
+
+    &__infos {
+        display: flex;
+        flex-direction: column;
+        color: colors.$corDoTexto1;
+
+        &__text {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 96px;
+        }
+
+        &__links {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            &__icons {
+                &__location {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            &__email {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+
+                #email-icon, a {
+                    color: colors.$corDoTexto1;
+                    text-decoration: none;
+                    padding-right: 16px;
+
+                }
+                
+                #email-icon {
+                    transition: all .4s;
+
+                    &:hover {
+                        color: colors.$corDoTexto2;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            &__media {
+                h4 {
+                    padding-bottom: 8px;
+                }
+                &__link {
+                    a {
+                        color: colors.$corDoTexto1;
+                        margin-right: 16px;
+                        text-decoration: none;
+
+                        .git-link, .linkedin-link {
+                            transition: all .4s;
+
+                            &:hover {
+                                color: colors.$corDoTexto2;
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// transition: all .4s;
+                    
+// &:hover {
+//     color: colors.$corDoTexto2;
+//     transform: scale(1.2);
+// }
