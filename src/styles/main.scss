@@ -4,6 +4,7 @@
 @use 'hero';
 @use 'about';
 @use 'projects';
+@use 'contact';
 
 .container {
     max-width: 1024px;
@@ -13,9 +14,4 @@
 
 section {
     padding: 80px 0;
-}
-
-#contact {
-    background-color: colors.$corDeFundo2;
-    height: 700px;
 }
