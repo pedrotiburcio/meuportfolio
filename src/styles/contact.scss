@@ -53,11 +53,11 @@
                 #email-icon, a {
                     color: colors.$corDoTexto1;
                     text-decoration: none;
-                    padding-right: 16px;
+                    padding-right: 8px;
 
                 }
                 
-                #email-icon {
+                #email-icon, a {
                     transition: all .4s;
 
                     &:hover {
@@ -91,11 +91,3 @@
         }
     }
 }
-
-
-// transition: all .4s;
-                    
-// &:hover {
-//     color: colors.$corDoTexto2;
-//     transform: scale(1.2);
-// }
