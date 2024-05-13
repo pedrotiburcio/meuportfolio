@@ -5,7 +5,7 @@ $(document).ready(function (){
         const menuItems = $('.header__menu');
 
         hamburguerMenu.on("click", function(){
-            menuItems.slideToggle(700);
+            menuItems.slideToggle(500);
         })
 
         $(window).on("resize", function() {
@@ -19,7 +19,6 @@ $(document).ready(function (){
 
 
         setTimeout(function(){
-            // $('#social-links').css("opacity", "1")
             $('#social-links').css("animation", "bounce")
             $('#social-links').css("animationDuration", "2.2s")
         }, 1500)
